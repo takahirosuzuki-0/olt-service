@@ -1,0 +1,24 @@
+dependencies:
+- name: rcord
+  repository: https://charts.opencord.org
+  version: 2.0.0
+- name: onos-service
+  repository: https://charts.opencord.org
+  version: 3.0.0
+- name: fabric
+  repository: https://charts.opencord.org
+  version: 3.0.0
+- name: volt
+  repository: https://charts.opencord.org
+  version: 3.0.0
+- name: fabric-crossconnect
+  repository: https://charts.opencord.org
+  version: 2.0.0
+- name: vrouter
+  repository: https://charts.opencord.org
+  version: 3.0.0
+- name: sadis-server
+  repository: https://charts.opencord.org
+  version: 1.0.4
+digest: sha256:2de9c6884b537f28a96c39b1ea64f6565e66924115356e0d98b559df36ee7737
+generated: "2020-04-13T17:11:05.61804334Z"

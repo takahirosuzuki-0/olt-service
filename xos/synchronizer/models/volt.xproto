@@ -185,6 +185,10 @@ message ONUDevice (XOSBase){
         help_text = "ONU device configuration state machine status message",
         feedback_state = True,
         text = True];
+
+    optional string mac_address = 10 [
+        help_text = "MAC address of physical ONU Device",
+        max_length = 17];
 }
 
 message ANIPort (PortBase) {

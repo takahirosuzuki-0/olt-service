@@ -1,0 +1,9 @@
+dependencies:
+- name: xos-db
+  repository: https://charts.opencord.org
+  version: 1.0.2
+- name: xos-gui
+  repository: https://charts.opencord.org
+  version: 1.2.7
+digest: sha256:9bf3e72bb6fcf60f9c453e1cbc85e7b2bcc336f3dec61ac9779b25cf253fc73a
+generated: "2020-04-13T16:04:30.140858475Z"

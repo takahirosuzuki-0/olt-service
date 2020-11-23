@@ -69,6 +69,7 @@ class ONUDevicePullStep(PullStep):
                 model = ONUDevice()
                 model.serial_number = onu.serial_number
                 model.admin_state = AdminState.Types.Name(onu.admin_state)
+                model.mac_address = onu.mac_address
 
                 log.debug("[ONU pull step] ONUDevice is new, creating it", serial_number=onu.serial_number, admin_state=onu.admin_state)
 
