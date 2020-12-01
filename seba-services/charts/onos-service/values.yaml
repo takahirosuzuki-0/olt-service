@@ -34,7 +34,7 @@ xosAdminUser: "admin@opencord.org"
 xosAdminPassword: "letmein"
 xosCoreService: "xos-core:50051"
 
-kafkaService: "cord-kafka"
+kafkaService: "kafka.default.svc.cluster.local"
 
 cordConfigAppURL: "https://oss.sonatype.org/service/local/repositories/releases/content/org/opencord/cord-config/1.4.0/cord-config-1.4.0.oar"
 vtnAppURL: "https://oss.sonatype.org/service/local/repositories/releases/content/org/opencord/vtn/1.6.0/vtn-1.6.0.oar"

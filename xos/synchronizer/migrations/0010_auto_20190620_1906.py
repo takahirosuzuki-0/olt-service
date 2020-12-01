@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='oltdevice_decl',
             name='technology',
-            field=models.CharField(choices=[(b'gpon', b'gpon'), (b'xgspon', b'xgspon')], db_index=True, default=b'xgspon', help_text=b'The technology being utilized by the adapter', max_length=16),
+            field=models.CharField(choices=[(b'gpon', b'gpon'), (b'xgspon', b'xgspon'), (b'EPON', b'EPON')], db_index=True, default=b'xgspon', help_text=b'The technology being utilized by the adapter', max_length=16),
         ),
         migrations.AlterUniqueTogether(
             name='technologyprofile_decl',

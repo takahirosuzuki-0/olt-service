@@ -23,4 +23,4 @@ global:
 
 xosAdminUser: "admin@opencord.org"
 xosAdminPassword: "letmein"
-kafkaBroker: "cord-kafka:9092"
+kafkaBroker: "kafka-0.kafka-headless.default.svc.cluster.local:9092"

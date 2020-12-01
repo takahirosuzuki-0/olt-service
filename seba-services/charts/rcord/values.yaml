@@ -23,8 +23,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'xosproject/rcord-synchronizer'
-  tag: '{{ .Chart.AppVersion }}'
+  repository: 'takahiroonf/rcord-synchronizer'
+  tag: '1.0'
   pullPolicy: 'Always'
 
 global:
@@ -34,7 +34,7 @@ xosAdminUser: "admin@opencord.org"
 xosAdminPassword: "letmein"
 xosCoreService: "xos-core:50051"
 
-kafkaService: "cord-kafka"
+kafkaService: "kafka.default.svc.cluster.local"
 
 resources: {}
 
